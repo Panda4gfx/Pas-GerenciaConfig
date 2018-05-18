@@ -1,4 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
 <?php
-  $animal = "cachorro";
-  echo 'Na internet ninguém sabe que você é um '. $animal;
+  $animal = "gato";
+  echo 'Na internet ninguÃ©m sabe que vocÃª Ã© um '. $animal;
 ?>
+</body>
+</html>
