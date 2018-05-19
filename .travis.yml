@@ -4,5 +4,10 @@ php:
   - '7.1'
   - hhvm # on Trusty only
   - nightly
-script: 
-- php teste.php
+addons:
+ sonarcloud:
+   organization: "panda4gfx-github" # the key of the org you chose at step #3
+   token:
+     secure: d2720f7b638690ceb19b5b4e2bb0cb837d871e65 #Token
+script:
+- sonar-scanner
